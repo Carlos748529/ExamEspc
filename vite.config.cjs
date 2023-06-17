@@ -12,6 +12,7 @@ export default defineConfig({
   root: "./",
   //Add base route if deployiing on production
   base: env.mode === "production" ? "/ExamEspc/" : "/",
+  target: "esnext",
   build: {
     outDir: "docs",
     assetsDir: "assets",
