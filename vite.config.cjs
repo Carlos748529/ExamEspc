@@ -11,7 +11,7 @@ console.log('Environment: ', env.mode);
 export default defineConfig({
   root: "./",
   //Add base route if deployiing on production
-  base: env.mode === "production" ? "/Evento/" : "/",
+  base: env.mode === "production" ? "/ExamEspc/" : "/",
   build: {
     outDir: "docs",
     assetsDir: "assets",
