@@ -1,14 +1,14 @@
 // importar librerías//
-import 'flowbite'
+import 'flowbite';
 
 // estilos de la pagina//
-import '../css/style.css'
+import '../css/style.css';
 
 // menu de navegación//
-import './menu'
+import './menu';
 
-import './header'
+import './header';
 
 // importar carousel//
-import './carousel'
+import './carousel';
 
